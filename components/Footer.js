@@ -5,6 +5,7 @@ export default (props) => (
     <style jsx>{`
       footer {
         color: #fff;
+        margin-top: 83px;
         padding: 78px 0;
         background-color: #e2bf10;
       }

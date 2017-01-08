@@ -14,6 +14,10 @@ export default (props) => (
     <style jsx global>{`
       @import url('https://fonts.googleapis.com/css?family=Nunito:300,700');
 
+      * {
+        box-sizing: border-box;
+      }
+
       body {
         font-family: 'Nunito', sans-serif;
         color: #525252;
@@ -30,6 +34,10 @@ export default (props) => (
 
       .tabbed {
         padding-left: 83px;
+      }
+
+      img {
+        max-width: 100%;
       }
 
       a {
@@ -51,10 +59,11 @@ export default (props) => (
 
       p {
         font-size: 20px;
+        line-height: 1.3;
       }
 
       h1 + p {
-        margin-top: 1em;
+        margin-top: 10px;
       }
 
       strong {
