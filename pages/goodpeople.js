@@ -16,10 +16,10 @@ export default () => (
       }
     `}</style>
     <div className='container'>
-      <img src='http://satyr.io/940x475' />
+      <img src='https://satyr.io/940x475' />
       <h1>GoodPeople single page Checkout.</h1>
       <p>We worked with a marketing team in order to improve the checkout rate. The process implied studying metrics, payment and delivery systems integration, testing and design of the interface to offer support during development.</p>
-      <img src='http://satyr.io/940x475' />
+      <img src='https://satyr.io/940x475' />
       <h1>GoodPeople single page Checkout.</h1>
       <p>We worked with a marketing team in order to improve the checkout rate. The process implied studying metrics, payment and delivery systems integration, testing and design of the interface to offer support during development.</p>
     </div>
