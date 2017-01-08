@@ -49,34 +49,38 @@ export default (props) => (
         <img src='/static/logo-white.svg' className='logo' />
       </Link>
       <div className='links'>
-        <Link
+        <a
           href='https://dribbble.com/pazarando'
           rel='nofollow noopener'
-          target='_blank'
-          prefetch={false}>
+          target='_blank'>
           Dribble
-        </Link>
+        </a>
         <span />
-        <Link
+        <a
           href='https://ar.linkedin.com/in/paz-arando-10a52931'
           rel='nofollow noopener'
-          target='_blank'
-          prefetch={false}>
+          target='_blank'>
           LinkedIn
-        </Link>
+        </a>
         <span />
-        <Link
+        <a
           href='https://www.instagram.com/pazarando/'
           rel='nofollow noopener'
-          target='_blank'
-          prefetch={false}>
+          target='_blank'>
           Instagram
-        </Link>
+        </a>
+        <span />
+        <a
+          href='https://twitter.com/pazarando'
+          rel='nofollow noopener'
+          target='_blank'>
+          Twitter
+        </a>
       </div>
       <div className='email'>
-        <Link href='mailto:paz.arando@gmail.com' prefetch={false}>
+        <a href='mailto:paz.arando@gmail.com'>
           paz.arando@gmail.com
-        </Link>
+        </a>
       </div>
     </div>
   </footer>

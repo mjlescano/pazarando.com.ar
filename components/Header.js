@@ -4,9 +4,7 @@ export default (props) => (
   <header>
     <style jsx>{`
       header {
-        position: fixed;
-        top: 0;
-        left: 0;
+        position: relative;
         padding: 20px 0;
         width: 100%;
         background-color: #fff;
@@ -50,8 +48,6 @@ export default (props) => (
         <img src='/static/logo.svg' className='logo' />
       </Link>
       <div className='links'>
-        <Link href='/about'>About</Link>
-        <span />
         <Link href='/work'>Work</Link>
         <span />
         <Link href='#contact' prefetch={false}>Contact</Link>

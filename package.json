@@ -5,7 +5,8 @@
   "repository": "git@github.com:mjlescano/pazarando.com.ar.git",
   "author": "Matías Lescano <mjlescano@protonmail.com>",
   "dependencies": {
-    "next": "~2.0.0-beta.16"
+    "next": "~2.0.0-beta.16",
+    "react-sticky": "^5.0.5"
   },
   "scripts": {
     "dev": "next",
