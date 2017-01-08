@@ -35,6 +35,11 @@ export default () => (
 
 const Intro = () => (
   <div style={{marginBottom: '160px'}}>
+    <style jsx>{`
+      a {
+        font-weight: bold;
+      }
+    `}</style>
     <h1 className='tabbed'>
       Hola! I’m Paz Arando,<br />
       a ux-ui designer based in <strong>Buenos Aires</strong>.

@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import { StickyContainer, Sticky } from 'react-sticky'
-import CssReset from './CssReset'
 import Header from './Header'
 import Footer from './Footer'
 
@@ -9,7 +8,6 @@ export default (props) => (
     <Head>
       <title>Paz Arando</title>
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-      <CssReset />
     </Head>
     <style jsx global>{`
       @import url('https://fonts.googleapis.com/css?family=Nunito:300,700');
@@ -18,8 +16,16 @@ export default (props) => (
         box-sizing: border-box;
       }
 
+      html, body, h1, h2, h3, h4, h5, h6, p, button {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-weight: normal;
+      }
+
       body {
         font-family: 'Nunito', sans-serif;
+        line-height: 1;
         color: #525252;
         text-rendering: geometricPrecision;
       }
@@ -43,7 +49,6 @@ export default (props) => (
       a {
         color: inherit;
         font-family: inherit;
-        font-weight: bold;
         text-decoration: none;
       }
 
