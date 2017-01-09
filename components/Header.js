@@ -44,13 +44,13 @@ export default (props) => (
       }
     `}</style>
     <nav className='container'>
-      <Link href='/' title='Home'>
+      <Link href='/#home' title='Home'>
         <img src='/static/logo.svg' className='logo' />
       </Link>
       <div className='links'>
-        <Link href='/work'>Work</Link>
+        <Link href='/#work'>Work</Link>
         <span />
-        <Link href='#contact' prefetch={false}>Contact</Link>
+        <Link href='/#contact'>Contact</Link>
       </div>
     </nav>
   </header>

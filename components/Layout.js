@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { StickyContainer, Sticky } from 'react-sticky'
 import Header from './Header'
 import Footer from './Footer'
+import Anchor from './Anchor'
 
 export default (props) => (
   <div>
@@ -24,6 +25,7 @@ export default (props) => (
       }
 
       body {
+        padding-top: 47px;
         font-family: 'Nunito', sans-serif;
         line-height: 1;
         color: #525252;
@@ -75,8 +77,9 @@ export default (props) => (
         font-weight: bold;
       }
     `}</style>
+    <Anchor id='home' />
     <StickyContainer>
-      <div style={{padding: '67px 0'}}>
+      <div style={{paddingBottom: '47px'}}>
         <Sticky>
           <Header />
         </Sticky>

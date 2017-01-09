@@ -1,34 +1,37 @@
 import Layout from '../components/Layout'
 import WorkItem from '../components/WorkItem'
+import Anchor from '../components/Anchor'
 
 export default () => (
   <Layout>
     <main className='container'>
       <Intro />
-      <WorkItem
-        heading='UX-UI Case Study'
-        title='GoodPeople single page Checkout.'
-        description='We worked with a marketing team in order to improve the checkout rate.'
-        pic='https://satyr.io/460x323'
-        url='/goodpeople' />
-      <WorkItem
-        heading='UX-UI Case Study'
-        title='GoodPeople single page Checkout.'
-        description='We worked with a marketing team in order to improve the checkout rate.'
-        pic='https://satyr.io/460x323'
-        url='/goodpeople' />
-      <WorkItem
-        heading='UX-UI Case Study'
-        title='GoodPeople single page Checkout.'
-        description='We worked with a marketing team in order to improve the checkout rate.'
-        pic='https://satyr.io/460x323'
-        url='/goodpeople' />
-      <WorkItem
-        heading='UX-UI Case Study'
-        title='GoodPeople single page Checkout.'
-        description='We worked with a marketing team in order to improve the checkout rate.'
-        pic='https://satyr.io/460x323'
-        url='/goodpeople' />
+      <Anchor id='work'>
+        <WorkItem
+          heading='UX-UI Case Study'
+          title='GoodPeople single page Checkout.'
+          description='We worked with a marketing team in order to improve the checkout rate.'
+          pic='https://satyr.io/460x323'
+          url='/goodpeople' />
+        <WorkItem
+          heading='UX-UI Case Study'
+          title='GoodPeople single page Checkout.'
+          description='We worked with a marketing team in order to improve the checkout rate.'
+          pic='https://satyr.io/460x323'
+          url='/goodpeople' />
+        <WorkItem
+          heading='UX-UI Case Study'
+          title='GoodPeople single page Checkout.'
+          description='We worked with a marketing team in order to improve the checkout rate.'
+          pic='https://satyr.io/460x323'
+          url='/goodpeople' />
+        <WorkItem
+          heading='UX-UI Case Study'
+          title='GoodPeople single page Checkout.'
+          description='We worked with a marketing team in order to improve the checkout rate.'
+          pic='https://satyr.io/460x323'
+          url='/goodpeople' />
+      </Anchor>
     </main>
   </Layout>
 )

@@ -1,4 +1,5 @@
 import Link from 'next/prefetch'
+import Anchor from './Anchor'
 
 export default (props) => (
   <footer>
@@ -45,44 +46,46 @@ export default (props) => (
         font-size: 20px;
       }
     `}</style>
-    <div className='container'>
-      <Link href='/' title='Home'>
-        <img src='/static/logo-white.svg' className='logo' />
-      </Link>
-      <div className='links'>
-        <a
-          href='https://dribbble.com/pazarando'
-          rel='nofollow noopener'
-          target='_blank'>
-          Dribble
-        </a>
-        <span />
-        <a
-          href='https://ar.linkedin.com/in/paz-arando-10a52931'
-          rel='nofollow noopener'
-          target='_blank'>
-          LinkedIn
-        </a>
-        <span />
-        <a
-          href='https://www.instagram.com/pazarando/'
-          rel='nofollow noopener'
-          target='_blank'>
-          Instagram
-        </a>
-        <span />
-        <a
-          href='https://twitter.com/pazarando'
-          rel='nofollow noopener'
-          target='_blank'>
-          Twitter
-        </a>
+    <Anchor id='contact'>
+      <div className='container'>
+        <Link href='/' title='Home'>
+          <img src='/static/logo-white.svg' className='logo' />
+        </Link>
+        <div className='links'>
+          <a
+            href='https://dribbble.com/pazarando'
+            rel='nofollow noopener'
+            target='_blank'>
+            Dribble
+          </a>
+          <span />
+          <a
+            href='https://ar.linkedin.com/in/paz-arando-10a52931'
+            rel='nofollow noopener'
+            target='_blank'>
+            LinkedIn
+          </a>
+          <span />
+          <a
+            href='https://www.instagram.com/pazarando/'
+            rel='nofollow noopener'
+            target='_blank'>
+            Instagram
+          </a>
+          <span />
+          <a
+            href='https://twitter.com/pazarando'
+            rel='nofollow noopener'
+            target='_blank'>
+            Twitter
+          </a>
+        </div>
+        <div className='email'>
+          <a href='mailto:paz.arando@gmail.com'>
+            paz.arando@gmail.com
+          </a>
+        </div>
       </div>
-      <div className='email'>
-        <a href='mailto:paz.arando@gmail.com'>
-          paz.arando@gmail.com
-        </a>
-      </div>
-    </div>
+    </Anchor>
   </footer>
 )
