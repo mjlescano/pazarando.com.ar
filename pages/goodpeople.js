@@ -36,6 +36,6 @@ export default () => (
       <p>With the goal to retain the UI simpler we focused on studying behaviour surrounding the options for shopping and the “Buy” button. In order to define its shape, wording and color options were tested with using an Invision prototype in usertesting.com</p>
       <img src='/static/Goodpeople-06.png' />
       <h1>Laernings</h1>      
-      <p>The goal was to have the new checkout implemented for the CyberMonday, and thus measure the impact with a high volume of visits and sales. Even when other changes were introduced in the site, the conversion rate increased a 74% in relation to prior data. <br /> Definitely the top challenge laid in understanding the integrations and validate the ideas that came up from the paper prototypes of the development team. It was an interesting and fluid job between both teams that puts us all in the same page for the upcoming projects.</div>
+      <p>The goal was to have the new checkout implemented for the CyberMonday, and thus measure the impact with a high volume of visits and sales. Even when other changes were introduced in the site, the conversion rate increased a 74% in relation to prior data. <br /> Definitely the top challenge laid in understanding the integrations and validate the ideas that came up from the paper prototypes of the development team. It was an interesting and fluid job between both teams that puts us all in the same page for the upcoming projects.</p>
   </Layout>
 )
