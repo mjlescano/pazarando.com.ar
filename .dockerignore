@@ -1,0 +1,9 @@
+.dockerignore
+.DS_Store
+.env
+.eslintrc
+.git
+.gitignore
+.next
+/README.md
+node_modules
