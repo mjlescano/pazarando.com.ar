@@ -23,24 +23,35 @@ export default (props) => (
       }
 
       .links {
+        font-size: 16px;
         padding-left: 60px;
-        border-bottom: 6px solid #f6cf0d;
+        border-bottom: .4em solid #f6cf0d;
         text-align: right;
       }
 
       .links :global(a) {
-        font-size: 20px;
+        font-size: 1.25em;
         line-height: 2em;
         text-transform: uppercase;
       }
 
       .links :global(span):after {
-        font-size: 20px;
+        font-size: 1.25em;
         padding: 0 .8em;
       }
 
       .links :global(span):after {
         content: '/';
+      }
+
+      @media all and (max-width: 380px) {
+        .logo {
+          width: 17vw;
+        }
+
+        .links :global(a) {
+          font-size: 1em;
+        }
       }
     `}</style>
     <nav className='container'>

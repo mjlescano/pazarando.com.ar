@@ -27,6 +27,11 @@ export default (props) => (
         font-size: 20px;
       }
 
+      .links :global(a),
+      .links :global(span) {
+        display: inline-block;
+      }
+
       .links :global(a) {
         line-height: 2em;
         text-transform: uppercase;

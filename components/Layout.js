@@ -40,8 +40,10 @@ export default (props) => (
         max-width: 960px;
       }
 
-      .tabbed {
-        padding-left: 83px;
+      @media all and (min-width: 996px) {
+        .tabbed {
+          padding-left: 83px;
+        }
       }
 
       img {
