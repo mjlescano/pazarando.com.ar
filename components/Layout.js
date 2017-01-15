@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { StickyContainer, Sticky } from 'react-sticky'
+import Title from './Title'
 import Header from './Header'
 import Footer from './Footer'
 import Anchor from './Anchor'
@@ -7,9 +8,9 @@ import Anchor from './Anchor'
 export default (props) => (
   <div>
     <Head>
-      <title>Paz Arando</title>
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
     </Head>
+    <Title />
     <style jsx global>{`
       @import url('https://fonts.googleapis.com/css?family=Nunito:300,700');
 

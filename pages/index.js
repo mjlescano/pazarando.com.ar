@@ -12,25 +12,25 @@ export default () => (
           title='GoodPeople single page Checkout.'
           description='We worked with a marketing team in order to improve the checkout rate.'
           pic='https://satyr.io/460x323'
-          url='/goodpeople' />
+          url='/works/goodpeople' />
         <WorkItem
           heading='UX-UI Case Study'
           title='GoodPeople single page Checkout.'
           description='We worked with a marketing team in order to improve the checkout rate.'
           pic='https://satyr.io/460x323'
-          url='/goodpeople' />
+          url='/works/goodpeople' />
         <WorkItem
           heading='UX-UI Case Study'
           title='GoodPeople single page Checkout.'
           description='We worked with a marketing team in order to improve the checkout rate.'
           pic='https://satyr.io/460x323'
-          url='/goodpeople' />
+          url='/works/goodpeople' />
         <WorkItem
           heading='UX-UI Case Study'
           title='GoodPeople single page Checkout.'
           description='We worked with a marketing team in order to improve the checkout rate.'
           pic='https://satyr.io/460x323'
-          url='/goodpeople' />
+          url='/works/goodpeople' />
       </Anchor>
     </main>
   </Layout>

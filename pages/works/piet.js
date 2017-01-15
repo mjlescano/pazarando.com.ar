@@ -1,4 +1,4 @@
-import Work from '../components/Work'
+import Work from '../../components/Work'
 
 export default () => (
   <Work>
