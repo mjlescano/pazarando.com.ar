@@ -1,11 +1,12 @@
 FROM node:7-slim
 
+LABEL name="pazarando.com.ar"
+
 MAINTAINER Matías Lescano <mjlescano@protonmail.com>
 
-RUN npm set progress=false && \
-    npm install -g --progress=false yarn
+RUN npm set progress=false && npm install -g yarn
 
-COPY ["package.json", "/usr/src/"]
+COPY ["package.json", "yarn.lock", ".yarnclean", "/usr/src/"]
 
 WORKDIR /usr/src
 
