@@ -49,6 +49,6 @@ const Intro = () => (
     <h1 className='tabbed'>
       Currently living the startup life at <a href='https://itunes.apple.com/ar/app/tril-things-you-love-from/id988551906' rel='nofollow noopener' target='_blank'>@tril</a>. But also hunting colors<br /> at <a href='https://www.instagram.com/pazarando/' rel='nofollow noopener' target='_blank'>@instagram</a>, and writing about how great<br />  internet is at <a href='https://twitter.com/pazarando' rel='nofollow noopener' target='_blank'>@twitter</a>.
     </h1>
-    <p className='tabbed'>I’m also easily falling in love with sideproyects you can check them <a href='https://dribbble.com/pazarando' rel='nofollow noopener' target='_blank'>@dribble</a>.</p>
+    <p className='tabbed'>I’m constantly falling in love with sideproyects you can check them <a href='https://dribbble.com/pazarando' rel='nofollow noopener' target='_blank'>@dribble</a>.</p>
   </div>
 )
