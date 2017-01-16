@@ -9,27 +9,27 @@ export default () => (
       <Anchor id='work'>
         <WorkItem
           heading='UX-UI Case Study'
-          title='GoodPeople single page Checkout.'
-          description='We worked with a marketing team in order to improve the checkout rate.'
-          pic='https://satyr.io/460x323'
-          url='/works/goodpeople' />
+          title='DEMOS'
+          description='We developed a platform where the porteños participated for the first time in the law creation process.'
+          pic='/static/works/Demos-cover.png'
+          url='/works/demos' />
         <WorkItem
           heading='UX-UI Case Study'
-          title='GoodPeople single page Checkout.'
-          description='We worked with a marketing team in order to improve the checkout rate.'
-          pic='https://satyr.io/460x323'
-          url='/works/goodpeople' />
+          title='Tril'
+          description="We co-created with our users a new flow. Based in our most engaged trilers' feedback we improved our retention with new users."
+          pic='/static/works/Tril-cover.png'
+          url='/works/tril' />
         <WorkItem
           heading='UX-UI Case Study'
-          title='GoodPeople single page Checkout.'
-          description='We worked with a marketing team in order to improve the checkout rate.'
-          pic='https://satyr.io/460x323'
-          url='/works/goodpeople' />
+          title='Piet'
+          description='We designed a parallax scroll and use it as a storytelling tool.'
+          pic='/static/works/Piet-cover.png'
+          url='/works/piet' />
         <WorkItem
           heading='UX-UI Case Study'
-          title='GoodPeople single page Checkout.'
-          description='We worked with a marketing team in order to improve the checkout rate.'
-          pic='https://satyr.io/460x323'
+          title='GoodPeople'
+          description='We worked in the checkout experience looking forward this impact in our general conversion rate.'
+          pic='/static/works/Goodpeople-cover.png'
           url='/works/goodpeople' />
       </Anchor>
     </main>
