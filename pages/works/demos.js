@@ -20,12 +20,11 @@ export default () => (
       <h1>Stage 2 | Wireframing</h1>
       <p>We prototype different layouts for listing all the projects in one view. But after testing it with other citizens we learn that it was more clear to show them one by one in a card format.</p>
     </div>
-    <img src='/static/works/Demos-02.png' />
+    <img src='/static/works/Demos-03.png' />
     <div className='container'>
-      <h1>Stage 2 | User Interface</h1>
+      <h1>Stage 3 | User Interface</h1>
       <p>The challenge of the UI resided in being able to give an impartial and institutional context to the projects, but at the same time display each political party identities so that their projects could be easily identified by citizens. We solved it allowing the administrators to customize their project cards.</p>
     </div>
-    <img src='/static/works/Demos-03.png' />
     <img src='/static/works/Demos-04.png' />
     <div className='container'>
       <h1>Learnings | Real citizens participation </h1>
