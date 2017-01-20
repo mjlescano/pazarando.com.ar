@@ -9,12 +9,6 @@ export default () => (
       <Anchor id='work'>
         <WorkItem
           heading='UX-UI Case Study'
-          title='DEMOS'
-          description='We developed a platform where the porteños participated for the first time in the law creation process.'
-          pic='/static/works/Demos-cover.png'
-          url='/works/demos' />
-        <WorkItem
-          heading='UX-UI Case Study'
           title='Tril'
           description="We co-created with our users a new flow. Based in our most engaged trilers' feedback we improved our retention with new users."
           pic='/static/works/Tril-cover.png'
@@ -31,6 +25,12 @@ export default () => (
           description='We worked in the checkout experience looking forward this impact in our general conversion rate.'
           pic='/static/works/Goodpeople-cover.png'
           url='/works/goodpeople' />
+        <WorkItem
+          heading='UX-UI Case Study'
+          title='DEMOS'
+          description='We developed a platform where the porteños participated for the first time in the law creation process.'
+          pic='/static/works/Demos-cover.png'
+          url='/works/demos' />
       </Anchor>
     </main>
   </Layout>
