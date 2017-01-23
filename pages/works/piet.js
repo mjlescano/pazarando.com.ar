@@ -8,7 +8,7 @@ export default () => (
       <h1>The brand | Piet</h1>
       <p>Piet is a clothing brand characterized for being atemporal, sophisticated and functional, starting from simple lines and neutral colours. It’s site intends a visual shock, keeping the attention to product details.</p>
       <h1>The project | Ecommerce</h1>
-      <p>In collaboration with <a href='https://github.com/mjlescano' rel='noopener noreferer' <strong>Matias Lescano</strong></a> we worked in the analysis of the future users, conceptualization of brand, prototyping and development of the e-commerce website.</p>
+      <p>In collaboration with <a href='https://github.com/mjlescano' rel='noopener noreferer'> <strong>Matias Lescano</strong></a> we worked in the analysis of the future users, conceptualization of brand, prototyping and development of the e-commerce website.</p>
     </div>
     <img src='/static/works/Piet-01.png' />
     <div className='container'>
@@ -34,13 +34,13 @@ export default () => (
     <img src='/static/works/Piet-06.png' />
     <div className='container'>
       <h1>Stage 5 | Export</h1>
-      <p>It was very important to be able to bring the <a href='https://www.sketchapp.com/' rel='noopener noreferer' <strong>Sketch</strong></a> grid to css, in order to do so we use <strong>Zeplin</strong> which allowed us the check the distances and export the assets with better precision.</p>
+      <p>It was very important to be able to bring the <a href='https://www.sketchapp.com/' rel='noopener noreferer'> <strong>Sketch</strong></a> grid to css, in order to do so we use <strong>Zeplin</strong> which allowed us the check the distances and export the assets with better precision.</p>
     </div>
     <img src='/static/works/Piet-07.png' />
     <div className='container'>
       <h1>Learnings | UX from the beginning </h1>
       <p>It was interesting to participate from the beginning in this project, which allows us to get to the photo stage with the wireframes defined and approved, and select visual content that better fitted out ideas.</p>
-      <p>In the technical side, implementing the backend for e-commerce of <a href='https://spreecommerce.com/' rel='noopener noreferer' <strong>Spree</strong></a> allowed us to assign more time to the frontend development. This way we didn’t sacrifice a good customer experience for our customer in the product and orders management flows.</p>
+      <p>In the technical side, implementing the backend for e-commerce of <a href='https://spreecommerce.com/' rel='noopener noreferer'> <strong>Spree</strong></a> allowed us to assign more time to the frontend development. This way we didn’t sacrifice a good customer experience for our customer in the product and orders management flows.</p>
     </div>
     <img src='/static/works/Piet-08.png' />
   </Work>

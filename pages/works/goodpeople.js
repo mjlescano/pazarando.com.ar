@@ -13,7 +13,7 @@ export default () => (
     <img src='/static/works/Goodpeople - 01.png' />
     <div className='container'>
       <h1>Stage 1 | Definition</h1>
-      <p>We needed to improve the checkout conversion rate. In order to do this we studied industry benchmarks with <a href='https://www.similarweb.com/' rel='noopener noreferer' <strong>SimilarWeb</strong></a> and the funnels within GoodPeople with <a href='https://analytics.google.com/analytics/web/' rel='noopener noreferer' <strong>Google Analytics</strong></a> and <a href='https://www.kissmetrics.com/' rel='noopener noreferer' <strong>Kiss Metrics</strong></a>.</p>
+      <p>We needed to improve the checkout conversion rate. In order to do this we studied industry benchmarks with <a href='https://www.similarweb.com/' rel='noopener noreferer'> <strong>SimilarWeb</strong></a> and the funnels within GoodPeople with <a href='https://analytics.google.com/analytics/web/' rel='noopener noreferer'> <strong>Google Analytics</strong></a> and <a href='https://www.kissmetrics.com/' rel='noopener noreferer'> <strong>Kiss Metrics</strong></a>.</p>
     </div>
     <img src='/static/works/Goodpeople - 02.png' />
     <div className='container'>
@@ -28,7 +28,7 @@ export default () => (
     <img src='/static/works/Goodpeople - 04.png' />
     <div className='container'>
       <h1>Stage 4 | Design</h1>
-      <p>With the goal to retain the UI simpler we focused on studying behaviour surrounding the options for shopping and the “Buy” button. In order to define its shape, wording and color options were tested with using an <a href='https://www.invisionapp.com/' rel='noopener noreferer' <strong>Invision</strong></a> prototype in <a href='https://www.usertesting.com/' rel='noopener noreferer' <strong>UserTesting.</strong></a></p>
+      <p>With the goal to retain the UI simpler we focused on studying behaviour surrounding the options for shopping and the “Buy” button. In order to define its shape, wording and color options were tested with using an <a href='https://www.invisionapp.com/' rel='noopener noreferer'> <strong>Invision</strong></a> prototype in <a href='https://www.usertesting.com/' rel='noopener noreferer'> <strong>UserTesting.</strong></a></p>
     </div>
     <img src='/static/works/Goodpeople - 05.png' />
     <img src='/static/works/Goodpeople - 06.png' />
