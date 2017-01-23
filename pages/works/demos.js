@@ -6,9 +6,9 @@ export default () => (
     <Title>DEMOS - Partido de la Red</Title>
     <div className='container'>
       <h1>Civic App | Partido de la Red</h1>
-      <p>Partido de la Red is a political party that proposes to improve democracy seizing Web’s virtues and promoting citizen involvement. Above all, they are a talented and passionate people who want to change the world :)</p>
+      <p><a href='http://partidodelared.org/' rel='noopener noreferer' <strong>Partido de la red</strong></a> is a political party that proposes to improve democracy seizing Web’s virtues and promoting citizen involvement. Above all, they are a talented and passionate people who want to change the world :)</p>
       <h1>Project | Demos</h1>
-      <p>Demos was a platform developed in collaboration with the <strong>BA Legislature</strong> that allowed citizens to choose three law proposals in order to be prioritize in the legislators oficial agenda. This was one of the first projects of the party in which I was involved helping with the design of the user’s experience and interface.</p>
+      <p>Demos was a platform developed in collaboration with the <a href='http://www.infobae.com/2014/11/20/1610005-por-internet-los-vecinos-la-ciudad-eligieron-que-proyectos-debe-tratar-la-legislatura-portena/' rel='noopener noreferer' <strong>BA Legislature</strong></a> that allowed citizens to choose three law proposals in order to be prioritize in the legislators oficial agenda. This was one of the first projects of the party in which I was involved helping with the design of the user’s experience and interface.</p>
     </div>
     <img src='/static/works/Demos-01.png' />
     <div className='container'>
@@ -28,6 +28,7 @@ export default () => (
     <img src='/static/works/Demos-04.png' />
     <div className='container'>
       <h1>Learnings | Real citizens participation </h1>
+      <p>During the first week the platform already had more than 40 thousand votes registered. Being the first initiative on this kind the press repercussion was huge.</p>  
       <p>On a personal level was really gratifying to see that a parliamentary minority as the FIT (a small left-wing political party in Argentina) managed to get to the media and to the official agenda its project of 6 hours workdays for nurses.</p>
     </div>
     <img src='/static/works/Demos-05.png' />
