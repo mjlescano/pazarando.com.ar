@@ -4,3 +4,6 @@ node_js:
   - "7"
 
 cache: yarn
+
+after_success:
+  - [ "$TRAVIS_BRANCH" == 'master' ] && curl -X POST -H "Content-Type: application/json" --data '{"docker_tag_name": "latest"}' "https://registry.hub.docker.com/u/mjlescano/pazarando.com.ar/trigger/$DOCKER_HUB_TOKEN/"
