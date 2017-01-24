@@ -1,4 +1,3 @@
-const assert = require('assert')
 const spawn = require('child_process').spawn
 
 const build = spawn('yarn', ['build'])
