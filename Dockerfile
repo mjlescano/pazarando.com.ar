@@ -1,10 +1,8 @@
-FROM node:7-slim
+FROM yarnpkg/node-yarn:node7
 
 LABEL name="pazarando.com.ar"
 
 MAINTAINER Matías Lescano <mjlescano@protonmail.com>
-
-RUN npm set progress=false && npm install -g yarn
 
 COPY ["package.json", "yarn.lock", ".yarnclean", "/usr/src/"]
 
