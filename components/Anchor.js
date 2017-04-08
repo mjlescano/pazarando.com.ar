@@ -1,23 +1,39 @@
-import React from 'react'
-import Router from 'next/router'
+import React, { Component } from 'react'
 import jump from 'jump.js'
 import throttle from 'lodash.throttle'
+import Router from 'next/router'
 
-export default class Anchor extends React.Component {
+/**
+ * Add hashChange event to Next.js Router
+ */
+Router.ready(() => {
+  const originalChangeState = Router.router.changeState
+
+  Router.router.changeState = function changeState (method, url, as) {
+    if (url.includes('#')) this.events.emit('hashChange', url)
+    return originalChangeState.call(this, method, url, as)
+  }
+})
+
+export default class Anchor extends Component {
   constructor (props) {
     super(props)
-    this.handleHashChange = throttle(this.handleHashChange.bind(this), 1000, {
+
+    this.handleHashChange = throttle(this.handleHashChange.bind(this), 200, {
       trailing: true
     })
   }
 
   componentDidMount () {
-    Router.router.addListener('routeChangeComplete', this.handleHashChange)
-    this.handleHashChange(window.location.hash)
+    this.handleHashChange()
+
+    Router.router.events.on('hashChange', this.handleHashChange)
+    Router.router.events.on('routeChangeComplete', this.handleHashChange)
   }
 
   componentWillUnmount () {
-    Router.router.removeListener('routeChangeComplete', this.handleHashChange)
+    Router.router.events.off('hashChange', this.handleHashChange)
+    Router.router.events.off('routeChangeComplete', this.handleHashChange)
   }
 
   handleHashChange (url) {
@@ -30,8 +46,7 @@ export default class Anchor extends React.Component {
 
   scroll () {
     jump(this.el, {
-      offset: -106,
-      duration: 500
+      duration: 400
     })
   }
 

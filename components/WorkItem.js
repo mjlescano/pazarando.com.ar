@@ -1,4 +1,4 @@
-import Link from 'next/prefetch'
+import Link from 'next/link'
 
 const WorkItem = (props) => (
   <div className='work-item'>
@@ -45,12 +45,12 @@ const WorkItem = (props) => (
       <h1 className='tabbed'>{props.title}</h1>
       <p className='tabbed'>{props.description}</p>
       <div className='tabbed more'>
-        <Link href={props.url}>More</Link>
+        <Link prefetch href={props.url}><a>More</a></Link>
       </div>
     </div>
     <div>
       <Link href={props.url}>
-        <img src={props.pic} />
+        <a><img src={props.pic} /></a>
       </Link>
     </div>
   </div>

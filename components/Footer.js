@@ -1,4 +1,4 @@
-import Link from 'next/prefetch'
+import Link from 'next/link'
 import Anchor from './Anchor'
 
 export default (props) => (
@@ -53,8 +53,8 @@ export default (props) => (
     `}</style>
     <Anchor id='contact'>
       <div className='container'>
-        <Link href='/' title='Home'>
-          <img src='/static/logo-white.svg' className='logo' />
+        <Link prefetch href='/' title='Home'>
+          <a><img src='/static/logo-white.svg' className='logo' /></a>
         </Link>
         <div className='links'>
           <a

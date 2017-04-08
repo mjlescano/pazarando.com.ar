@@ -82,7 +82,7 @@ export default (props) => (
     `}</style>
     <Anchor id='home' />
     <StickyContainer>
-      <div style={{paddingBottom: '47px'}}>
+      <div style={{ paddingBottom: '47px' }}>
         <Sticky>
           <Header />
         </Sticky>

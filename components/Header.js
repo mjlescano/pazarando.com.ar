@@ -1,4 +1,4 @@
-import Link from 'next/prefetch'
+import Link from 'next/link'
 
 export default (props) => (
   <header>
@@ -56,12 +56,12 @@ export default (props) => (
     `}</style>
     <nav className='container'>
       <Link href='/#home' title='Home'>
-        <img src='/static/logo.svg' className='logo' />
+        <a><img src='/static/logo.svg' className='logo' /></a>
       </Link>
       <div className='links'>
-        <Link href='/#work'>Work</Link>
+        <Link href='/#work'><a>Work</a></Link>
         <span />
-        <Link href='/#contact'>Contact</Link>
+        <Link href='/#contact'><a>Contact</a></Link>
       </div>
     </nav>
   </header>
