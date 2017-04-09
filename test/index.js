@@ -15,7 +15,8 @@ build.on('close', (code) => {
     console.log('  - There was an error building the App.')
     process.exit(code)
   }
+
   console.log('  + App builded correctly :)')
   console.log('· All tests finished for pazarando.com.ar')
-  process.exit(code)
+  process.exit(0)
 })

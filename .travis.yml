@@ -11,6 +11,10 @@ notifications:
     on_failure: always
 
 after_success:
-# notify Docker Hub to make a new build
-- >
-  [ "$TRAVIS_BRANCH" == 'master' ] && curl -X POST -H "Content-Type: application/json" --data '{"docker_tag_name": "latest"}' "https://registry.hub.docker.com/u/mjlescano/pazarando.com.ar/trigger/$DOCKER_HUB_TOKEN/"
+  - npm i -g now-pipeline
+  - now-pipeline --alias pazarando.com.ar
+  - now-pipeline-prune
+  - now-pipeline
+  # notify Docker Hub to make a new build
+  - >
+    [ "$TRAVIS_BRANCH" == 'master' ] && curl -X POST -H "Content-Type: application/json" --data '{"docker_tag_name": "latest"}' "https://registry.hub.docker.com/u/mjlescano/pazarando.com.ar/trigger/$DOCKER_HUB_TOKEN/"
