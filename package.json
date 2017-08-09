@@ -12,7 +12,8 @@
     "next": "~3.0.0-beta9",
     "react": "~15.6.1",
     "react-dom": "~15.6.1",
-    "react-sticky": "~5.0.5"
+    "react-sticky": "~5.0.5",
+    "snyk": "^1.38.1"
   },
   "scripts": {
     "check": "check-node-version --package",
@@ -20,7 +21,9 @@
     "clean": "rm -rf out",
     "build": "npm run check && npm run clean && next build && next export",
     "start": "npm run check && next start",
-    "test": "npm run check && node test"
+    "test": "npm run check && node test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "eslint": "~4.3.0",
@@ -29,5 +32,6 @@
   "engines": {
     "node": "8.x.x",
     "npm": "5.x.x"
-  }
+  },
+  "snyk": true
 }
