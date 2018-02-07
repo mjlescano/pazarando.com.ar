@@ -9,14 +9,14 @@
     "check-node-version": "2.1.0",
     "jump.js": "1.0.2",
     "lodash.throttle": "4.1.1",
-    "next": "4.0.4",
+    "next": "4.2.3",
     "react": "16.0.0",
     "react-dom": "15.6.1",
     "react-sticky": "5.0.5",
     "snyk": "1.38.1"
   },
   "scripts": {
-    "check": "check-node-version --package",
+    "check": "npx check-node-version --package",
     "dev": "npm run check && next",
     "clean": "rm -rf out",
     "build": "npm run check && npm run clean && next build && next export",
