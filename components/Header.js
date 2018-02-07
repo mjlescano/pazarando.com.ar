@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
-export default (props) => (
-  <header>
+export default ({ style }) => (
+  <header style={style}>
     <style jsx>{`
       header {
         position: relative;

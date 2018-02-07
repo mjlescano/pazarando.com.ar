@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import jump from 'jump.js'
 import throttle from 'lodash.throttle'
 import Router from 'next/router'
@@ -57,8 +57,4 @@ export default class Anchor extends Component {
       </div>
     )
   }
-}
-
-Anchor.propTypes = {
-  id: React.PropTypes.string
 }

@@ -5,7 +5,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Anchor from './Anchor'
 
-export default (props) => (
+export default ({ children }) => (
   <div>
     <Head>
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
@@ -84,10 +84,10 @@ export default (props) => (
     <StickyContainer>
       <div style={{ paddingBottom: '47px' }}>
         <Sticky>
-          <Header />
+          {({ style }) => <Header style={style} />}
         </Sticky>
       </div>
-      { props.children }
+      { children }
       <Footer />
     </StickyContainer>
   </div>

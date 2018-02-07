@@ -6,14 +6,13 @@
   "author": "Matías Lescano <mjlescano@protonmail.com>",
   "license": "CC-BY-4.0",
   "dependencies": {
-    "check-node-version": "2.1.0",
+    "check-node-version": "3.2.0",
     "jump.js": "1.0.2",
     "lodash.throttle": "4.1.1",
-    "next": "4.2.3",
-    "react": "16.0.0",
-    "react-dom": "15.6.1",
-    "react-sticky": "5.0.5",
-    "snyk": "1.38.1"
+    "next": "5.0.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-sticky": "6.0.1"
   },
   "scripts": {
     "check": "npx check-node-version --package",
@@ -21,9 +20,7 @@
     "clean": "rm -rf out",
     "build": "npm run check && npm run clean && next build && next export",
     "start": "npm run check && next start",
-    "test": "npm run check && node test",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "test": "npm run check && node test"
   },
   "devDependencies": {
     "eslint": "4.7.2",
@@ -32,6 +29,5 @@
   "engines": {
     "node": "8",
     "npm": "5"
-  },
-  "snyk": true
+  }
 }
